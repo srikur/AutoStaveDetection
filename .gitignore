@@ -1,0 +1,40 @@
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+build/
+bin/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Executables
+*.exe
+*.out
+
+# C++ specific
+*.d
+*.gcno
+*.gcda
+*.gcov
+*.gch
+*.pch
+*.swp
+*.swo
+
+# Folder stuff
+.DS_Store
+.vscode/
