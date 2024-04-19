@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7629EADD2BD0C32000F2E167 /* NoteWeaverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7629EADC2BD0C32000F2E167 /* NoteWeaverApp.swift */; };
+		7629EADF2BD0C32000F2E167 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7629EADE2BD0C32000F2E167 /* MainContentView.swift */; };
+		7629EAE12BD0C32000F2E167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7629EAE02BD0C32000F2E167 /* Assets.xcassets */; };
+		7629EAE42BD0C32000F2E167 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7629EAE32BD0C32000F2E167 /* Preview Assets.xcassets */; };
+		7629EAEF2BD0C32000F2E167 /* NoteWeaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7629EAEE2BD0C32000F2E167 /* NoteWeaverTests.swift */; };
+		7629EAF92BD0C32000F2E167 /* NoteWeaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7629EAF82BD0C32000F2E167 /* NoteWeaverUITests.swift */; };
+		7629EAFB2BD0C32000F2E167 /* NoteWeaverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7629EAFA2BD0C32000F2E167 /* NoteWeaverUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7629EAEB2BD0C32000F2E167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7629EAD12BD0C32000F2E167 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7629EAD82BD0C32000F2E167;
+			remoteInfo = NoteWeaver;
+		};
+		7629EAF52BD0C32000F2E167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7629EAD12BD0C32000F2E167 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7629EAD82BD0C32000F2E167;
+			remoteInfo = NoteWeaver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7629EAD92BD0C32000F2E167 /* NoteWeaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteWeaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7629EADC2BD0C32000F2E167 /* NoteWeaverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteWeaverApp.swift; sourceTree = "<group>"; };
+		7629EADE2BD0C32000F2E167 /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+		7629EAE02BD0C32000F2E167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7629EAE32BD0C32000F2E167 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7629EAE52BD0C32000F2E167 /* NoteWeaver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NoteWeaver.entitlements; sourceTree = "<group>"; };
+		7629EAEA2BD0C32000F2E167 /* NoteWeaverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteWeaverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7629EAEE2BD0C32000F2E167 /* NoteWeaverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteWeaverTests.swift; sourceTree = "<group>"; };
+		7629EAF42BD0C32000F2E167 /* NoteWeaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteWeaverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7629EAF82BD0C32000F2E167 /* NoteWeaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteWeaverUITests.swift; sourceTree = "<group>"; };
+		7629EAFA2BD0C32000F2E167 /* NoteWeaverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteWeaverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7629EAD62BD0C32000F2E167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7629EAE72BD0C32000F2E167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7629EAF12BD0C32000F2E167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7629EAD02BD0C32000F2E167 = {
+			isa = PBXGroup;
+			children = (
+				7629EADB2BD0C32000F2E167 /* NoteWeaver */,
+				7629EAED2BD0C32000F2E167 /* NoteWeaverTests */,
+				7629EAF72BD0C32000F2E167 /* NoteWeaverUITests */,
+				7629EADA2BD0C32000F2E167 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7629EADA2BD0C32000F2E167 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7629EAD92BD0C32000F2E167 /* NoteWeaver.app */,
+				7629EAEA2BD0C32000F2E167 /* NoteWeaverTests.xctest */,
+				7629EAF42BD0C32000F2E167 /* NoteWeaverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7629EADB2BD0C32000F2E167 /* NoteWeaver */ = {
+			isa = PBXGroup;
+			children = (
+				7629EADC2BD0C32000F2E167 /* NoteWeaverApp.swift */,
+				7629EADE2BD0C32000F2E167 /* MainContentView.swift */,
+				7629EAE02BD0C32000F2E167 /* Assets.xcassets */,
+				7629EAE52BD0C32000F2E167 /* NoteWeaver.entitlements */,
+				7629EAE22BD0C32000F2E167 /* Preview Content */,
+			);
+			path = NoteWeaver;
+			sourceTree = "<group>";
+		};
+		7629EAE22BD0C32000F2E167 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7629EAE32BD0C32000F2E167 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7629EAED2BD0C32000F2E167 /* NoteWeaverTests */ = {
+			isa = PBXGroup;
+			children = (
+				7629EAEE2BD0C32000F2E167 /* NoteWeaverTests.swift */,
+			);
+			path = NoteWeaverTests;
+			sourceTree = "<group>";
+		};
+		7629EAF72BD0C32000F2E167 /* NoteWeaverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7629EAF82BD0C32000F2E167 /* NoteWeaverUITests.swift */,
+				7629EAFA2BD0C32000F2E167 /* NoteWeaverUITestsLaunchTests.swift */,
+			);
+			path = NoteWeaverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7629EAD82BD0C32000F2E167 /* NoteWeaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7629EAFE2BD0C32000F2E167 /* Build configuration list for PBXNativeTarget "NoteWeaver" */;
+			buildPhases = (
+				7629EAD52BD0C32000F2E167 /* Sources */,
+				7629EAD62BD0C32000F2E167 /* Frameworks */,
+				7629EAD72BD0C32000F2E167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoteWeaver;
+			productName = NoteWeaver;
+			productReference = 7629EAD92BD0C32000F2E167 /* NoteWeaver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7629EAE92BD0C32000F2E167 /* NoteWeaverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7629EB012BD0C32000F2E167 /* Build configuration list for PBXNativeTarget "NoteWeaverTests" */;
+			buildPhases = (
+				7629EAE62BD0C32000F2E167 /* Sources */,
+				7629EAE72BD0C32000F2E167 /* Frameworks */,
+				7629EAE82BD0C32000F2E167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7629EAEC2BD0C32000F2E167 /* PBXTargetDependency */,
+			);
+			name = NoteWeaverTests;
+			productName = NoteWeaverTests;
+			productReference = 7629EAEA2BD0C32000F2E167 /* NoteWeaverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7629EAF32BD0C32000F2E167 /* NoteWeaverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7629EB042BD0C32000F2E167 /* Build configuration list for PBXNativeTarget "NoteWeaverUITests" */;
+			buildPhases = (
+				7629EAF02BD0C32000F2E167 /* Sources */,
+				7629EAF12BD0C32000F2E167 /* Frameworks */,
+				7629EAF22BD0C32000F2E167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7629EAF62BD0C32000F2E167 /* PBXTargetDependency */,
+			);
+			name = NoteWeaverUITests;
+			productName = NoteWeaverUITests;
+			productReference = 7629EAF42BD0C32000F2E167 /* NoteWeaverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7629EAD12BD0C32000F2E167 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					7629EAD82BD0C32000F2E167 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					7629EAE92BD0C32000F2E167 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 7629EAD82BD0C32000F2E167;
+					};
+					7629EAF32BD0C32000F2E167 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 7629EAD82BD0C32000F2E167;
+					};
+				};
+			};
+			buildConfigurationList = 7629EAD42BD0C32000F2E167 /* Build configuration list for PBXProject "NoteWeaver" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7629EAD02BD0C32000F2E167;
+			productRefGroup = 7629EADA2BD0C32000F2E167 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7629EAD82BD0C32000F2E167 /* NoteWeaver */,
+				7629EAE92BD0C32000F2E167 /* NoteWeaverTests */,
+				7629EAF32BD0C32000F2E167 /* NoteWeaverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7629EAD72BD0C32000F2E167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7629EAE42BD0C32000F2E167 /* Preview Assets.xcassets in Resources */,
+				7629EAE12BD0C32000F2E167 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7629EAE82BD0C32000F2E167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7629EAF22BD0C32000F2E167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7629EAD52BD0C32000F2E167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7629EADF2BD0C32000F2E167 /* MainContentView.swift in Sources */,
+				7629EADD2BD0C32000F2E167 /* NoteWeaverApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7629EAE62BD0C32000F2E167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7629EAEF2BD0C32000F2E167 /* NoteWeaverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7629EAF02BD0C32000F2E167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7629EAFB2BD0C32000F2E167 /* NoteWeaverUITestsLaunchTests.swift in Sources */,
+				7629EAF92BD0C32000F2E167 /* NoteWeaverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7629EAEC2BD0C32000F2E167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7629EAD82BD0C32000F2E167 /* NoteWeaver */;
+			targetProxy = 7629EAEB2BD0C32000F2E167 /* PBXContainerItemProxy */;
+		};
+		7629EAF62BD0C32000F2E167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7629EAD82BD0C32000F2E167 /* NoteWeaver */;
+			targetProxy = 7629EAF52BD0C32000F2E167 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7629EAFC2BD0C32000F2E167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7629EAFD2BD0C32000F2E167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7629EAFF2BD0C32000F2E167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NoteWeaver/NoteWeaver.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NoteWeaver/Preview Content\"";
+				DEVELOPMENT_TEAM = CLMBH96746;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.srikur.NoteWeaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7629EB002BD0C32000F2E167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NoteWeaver/NoteWeaver.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NoteWeaver/Preview Content\"";
+				DEVELOPMENT_TEAM = CLMBH96746;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.srikur.NoteWeaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7629EB022BD0C32000F2E167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CLMBH96746;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.srikur.NoteWeaverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoteWeaver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NoteWeaver";
+			};
+			name = Debug;
+		};
+		7629EB032BD0C32000F2E167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CLMBH96746;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.srikur.NoteWeaverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoteWeaver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NoteWeaver";
+			};
+			name = Release;
+		};
+		7629EB052BD0C32000F2E167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CLMBH96746;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.srikur.NoteWeaverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = NoteWeaver;
+			};
+			name = Debug;
+		};
+		7629EB062BD0C32000F2E167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CLMBH96746;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.srikur.NoteWeaverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = NoteWeaver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7629EAD42BD0C32000F2E167 /* Build configuration list for PBXProject "NoteWeaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7629EAFC2BD0C32000F2E167 /* Debug */,
+				7629EAFD2BD0C32000F2E167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7629EAFE2BD0C32000F2E167 /* Build configuration list for PBXNativeTarget "NoteWeaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7629EAFF2BD0C32000F2E167 /* Debug */,
+				7629EB002BD0C32000F2E167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7629EB012BD0C32000F2E167 /* Build configuration list for PBXNativeTarget "NoteWeaverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7629EB022BD0C32000F2E167 /* Debug */,
+				7629EB032BD0C32000F2E167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7629EB042BD0C32000F2E167 /* Build configuration list for PBXNativeTarget "NoteWeaverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7629EB052BD0C32000F2E167 /* Debug */,
+				7629EB062BD0C32000F2E167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7629EAD12BD0C32000F2E167 /* Project object */;
+}
