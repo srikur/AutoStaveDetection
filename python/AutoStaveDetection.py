@@ -40,7 +40,6 @@ class AutoStaveDetection():
 
     def _find_troughs(self, img, std_modifier):
         inverted_img = np.max(img) - img
-        std_modifier = 0.7
         troughs = []
         while len(troughs) == 0:
             threshold_value = np.mean(np.sum(inverted_img == 0, axis=1)) + std_modifier * np.std(np.sum(inverted_img == 0, axis=1))
@@ -172,7 +171,10 @@ class AutoStaveDetection():
         # Split the image into staves
         staves = []
         for lower, upper in staff_bounds:
-            staves.append(original_img[lower:upper, ])
+            stave = original_img[lower:upper, ]
+            # Remove extraneous white space from the stave's top or bottom
+            # stave = stave[np.sum(stave == 1, axis=1) > 0, ]
+            staves.append(stave)
 
         # plot all the staves in a grid
         # plt.figure(figsize=(20, 20))
@@ -190,7 +192,7 @@ class AutoStaveDetection():
         _, staff_without_lines = cv2.threshold(staff_without_lines, 200, 255, cv2.THRESH_BINARY)
 
         # If a staff image is mostly or completely black, it's probably not a staff and we can remove it from the staff list to return
-        if np.sum(staff_without_lines == 0) < 0.03 * staff_without_lines.size:
+        if np.sum(staff_without_lines == 0) < 0.01 * staff_without_lines.size:
             return None
         
         return staff_without_lines
